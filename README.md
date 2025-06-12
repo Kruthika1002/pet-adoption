@@ -90,4 +90,4 @@ python login_handler.py
 
 ## 📜 License
 
-This project is for academic purposes under RV University guidelines.
+This project is open source.
