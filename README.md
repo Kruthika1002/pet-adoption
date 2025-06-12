@@ -2,10 +2,11 @@
 
 A full-stack Pet Adoption Management System with admin authentication, graphical pet management, and real-time MySQL database integration.
 
-# Screenshots
+## 📸 Screenshots
 
-## login page
- ![Login Page](static/images/loginpage.png)
+<div style="display: flex; justify-content: space-between;">
+  <img src="petadoption/static/images/loginpage.png" />
+</div>
 
 ## 👩‍💻 Contributors
 - Developed by: Kruthika S and team
