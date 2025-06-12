@@ -90,7 +90,7 @@ python login_handler.py
 ## 📸 Screenshots
 
 > ### 🔐 Login Page
-![Login Page](login page.png)
+![Login Page](static/images/login page.png)
 
 
 ## 📜 License
