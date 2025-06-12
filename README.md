@@ -5,7 +5,7 @@ A full-stack Pet Adoption Management System with admin authentication, graphical
 # Screenshots
 
 ## login page
- ![Login Page](static/images/login page.png)
+ ![Login Page](static/images/loginpage.png)
 
 ## 👩‍💻 Contributors
 - Developed by: Kruthika S and team
