@@ -69,14 +69,12 @@ python login_handler.py
 # The GUI will launch upon successful login at /login
 ```
 
----
 
 ## 🛡️ Security Note
 
 - 🔑 Change `app.secret_key` in `login_handler.py` to a secure value.
 - 🔒 Store passwords securely using hashing (e.g., bcrypt) instead of plain text.
 
----
 
 ## 📈 Future Enhancements
 
@@ -84,13 +82,6 @@ python login_handler.py
 - 📷 Cloud storage for pet images
 - 🌐 Full web-based dashboard
 - 📱 Mobile-friendly frontend
-
----
-
-## 📸 Screenshots
-
-> ### 🔐 Login Page
-![Login Page](static/images/login page.png)
 
 
 ## 📜 License
