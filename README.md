@@ -1,9 +1,11 @@
-
 # 🐾 Pet Adoption Management System
 
 A full-stack Pet Adoption Management System with admin authentication, graphical pet management, and real-time MySQL database integration.
 
----
+# Screenshots
+
+## login page
+ ![Login Page](static\images\login.png)
 
 ## 👩‍💻 Contributors
 - Developed by: Kruthika S and team
