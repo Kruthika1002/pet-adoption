@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption System - Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="image-section">
+            <!-- This div will hold the background image -->
+        </div>
+        <div class="login-section">
+            <div class="login-box">
+                <h1>Welcome Back</h1>
+                <div class="login-container">
+                    <h2>Pet Adoption System</h2>
+                    <form id="loginForm" method="POST" action="{{ url_for('login_post') }}">
+                        <div class="input-group">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="login-button">Login</button>
+
+                        {% if error %}
+                        <div class="error-message">{{ error }}</div>
+                        {% endif %}
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='login.js') }}"></script>
+</body>
+</html>
